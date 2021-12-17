@@ -5,6 +5,7 @@ import Appointments from './Pages/Appointments';
 import Login from './Pages/Login';
 import Profile from './Pages/Profile';
 import Register from './Pages/Register';
+import Contact from './Pages/Contact';
 class App extends Component {
   render() {
   return (
@@ -16,6 +17,7 @@ class App extends Component {
         <Login />
         <Profile />
         <Register />
+        <Contact />
     </div>
   )};
 }
