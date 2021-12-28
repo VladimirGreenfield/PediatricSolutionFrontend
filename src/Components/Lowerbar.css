@@ -1,0 +1,32 @@
+.lowerbar {
+    height: 60px;
+    width: 100%;
+    background-color:#BBBBBB;
+    margin-top: 0px;
+}
+
+.lowerbarItems {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 60px;
+    display: inline-block;
+
+}
+
+button{
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    align-items: center;
+}
+
+.text {
+    color: black;
+}
+
+.searchInput {
+    width: 300px;
+    height: 28px;
+}

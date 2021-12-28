@@ -1,0 +1,23 @@
+.navbar {
+    height: 40px;
+    width: 100%;
+    background-color: #808080;
+    margin-top: 0px;
+}
+
+.navbarItems {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    margin-left: 1650px;
+}
+
+a{
+    padding: 10px;
+    color: white;
+}
+
+a:hover{
+    color: black;
+}

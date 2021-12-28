@@ -1,10 +1,18 @@
-import React from "react";
+import React, {Component} from "react";
+import Navbar from "../Components/Navbar";
+import Lowerbar from "../Components/Lowerbar";
 
 
-function Home() {
-    return(
-        <div>Home Page</div>
-    );
+class Home extends Component {
+    render() {
+        return(
+            <div>
+                <Navbar />
+                <Lowerbar />
+            </div>
+        )
+    };
+
 }
 
 export default Home;
